@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Mono", monospace;
+  word-wrap: break-word;
+
+  /* color: rgba(141, 135, 135, 0.863); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.absolute-box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar {
+  width: 12px;
+  background: rgb(167, 167, 167);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-button {
+  background: rgba(231, 231, 231, 0.89);
 }
 
-.App-link {
-  color: #61dafb;
+.preview {
+  padding: 0 25px;
+  word-wrap: break-word;
+  overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  color: rgb(53, 53, 53);
+  background-color: rgb(53, 53, 53);
+}
+
+code {
+  word-wrap: break-word;
+  color: #9145b6;
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 5px solid grey;
+  background: rgba(179, 179, 179, 0.39);
+  padding: 5px;
+  color: rgba(27, 27, 27, 0.959);
+  /* color: #1d1d1d; */
+}
+
+p {
+  margin-block: 14px;
+}
+
+a {
+  color: #4c3f91;
+  font-weight: 700;
+}
+
+ul,
+ol {
+  margin-inline: 25px;
+}
+
+li {
+  padding: 6px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block: 15px;
+}
+
+img {
+  height: 450px;
+  width: 650px;
+  border-radius: 0.3rem;
+}
+
+.infoSection {
+  position: absolute;
+  right: 30px;
+  bottom: 70px;
+  font-size: 25px;
+  padding: 2px;
+  border-radius: 50%;
 }
