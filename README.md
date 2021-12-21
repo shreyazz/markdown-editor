@@ -39,9 +39,19 @@ There are three additional things supported:
 
 <br>
 
-### To learn markdown head on to -> [Link](https://www.markdownguide.org/basic-syntax/)
+
+> If the link to the website isn't working, then follow the steps:
+>  - git clone into a folder
+>  - open the terminal in the home directory 
+>  - run `npm install`
+>  - run `npm start`
+
+<br>
+
+#### To learn markdown head on to -> [Link](https://www.markdownguide.org/basic-syntax/)
 
 ---
+
 
 <br>
 
