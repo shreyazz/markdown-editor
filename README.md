@@ -2,7 +2,7 @@
 
 This is a project made for developers out there who want to document their projects or the bloggers who wanna write their blogs in `.md` format.
 
-There are three additional things supported:
+There are two additional things supported:
 
 1. ### GitHub flavoured Markdown(GFM)
    - ~Strike through~
@@ -14,9 +14,6 @@ There are three additional things supported:
    - `<br>` for breakline
    - `<hr>` for horizontal line etc..
 
-3. ### AutoSaving the work in the `LocalStorage`
-   - The work is auto-saved in the local storage.
-   - Even if you refresh the webpage or leave it and visit back, you can start where you left off.
 
 <br>
  
